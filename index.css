@@ -1,0 +1,92 @@
+/* stylesheet for password generator | scrimba solo project */
+*, *::before, *::after {
+    box-sizing: border-box;
+  } 
+
+:root {
+    /* Colors */ 
+    --bg: #1C1C1C; 
+    --dark-blue: #1F2937;
+    --dark-blue-secondary: #273549;
+    --green: #10B981;
+    --white: #FFFFFF;
+    --light-gray: #D5D4D8;
+
+    --radius: 5px;
+
+    /* Fonts */
+    --ff-title: 'Karla', sans-serif;
+    --ff-text: 'Inter', sans-serif;
+    --fs: 16px;
+    --fw-extra-bold: 800;
+    --fw-regular: 400;
+
+}
+
+body {
+    margin: 0;
+    background-color: var(--bg);
+    color: var(--light-gray);
+    font-family: var(--ff-text);
+    font-size: var(--fs);
+}
+
+h2 {
+    font-family: var(--ff-title);
+    font-size: 2rem;
+    color: var(--white);
+}
+
+.container {
+    width: 80%;
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: var(--dark-blue);
+}
+
+.content {
+    margin: 1em;
+}
+
+.green {
+    color: var(--green);
+}
+
+button {
+    border: none;
+    background-color: var(--green);
+    color: var(--white);
+    border-radius: var(--radius);
+    padding: 0.5em;
+    margin: 3em 0 1.5em 0;
+    font-size: 0.9rem;
+}
+
+.passwords {
+    display: flex;
+}
+
+.password-box {
+    width: 100%;
+    height: calc(3 * var(--fs));
+    background-color: var(--dark-blue-secondary);
+    margin: 1em;
+    border-radius: var(--radius);
+    color: var(--green);
+    text-align: center;
+    font-family: var(--ff-text);
+    letter-spacing: 2px;   
+}
+
+footer {
+    margin-top: 1em;
+    text-align: center;
+    color: var(--light-gray);
+    font-size: 0.7rem;
+    font-style: italic;
+}
+
+footer a {
+    color: var(--light-gray);
+}
