@@ -31,7 +31,7 @@ The goals for this project were to build a password generator from scrach in lin
 
 ## Status
 
-Live version: [https://ananfito.github.io/password-generator]
+Live version: [https://ananfito.github.io/password-generator](https://ananfito.github.io/password-generator)
 
 ## Connect
 
